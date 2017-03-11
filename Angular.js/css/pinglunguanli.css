@@ -1,0 +1,285 @@
+@import url(reset.css);
+.a {
+  position: absolute;
+}
+.r {
+  position: relative;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+}
+html .mask,
+body .mask,
+.container .mask {
+  position: absolute;
+  top: 0px;
+  filter: alpha(opacity=60);
+  background-color: #777;
+  z-index: 1002;
+  left: 0px;
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+}
+html header,
+body header,
+.container header {
+  padding: 0 1rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  font-size: 1.6rem;
+  width: 100%;
+  height: 4rem;
+  background: #f7f7f7;
+  line-height: 4rem;
+  border-bottom: 1px solid #bfbfbf;
+}
+html header .left img,
+body header .left img,
+.container header .left img {
+  width: 1rem;
+  height: auto;
+  background: 0;
+  vertical-align: middle;
+}
+html header .center,
+body header .center,
+.container header .center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+html header .right img,
+body header .right img,
+.container header .right img {
+  vertical-align: middle;
+  width: 1.8rem;
+  height: auto;
+  background: 0;
+}
+html section,
+body section,
+.container section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+}
+html section .title,
+body section .title,
+.container section .title {
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+}
+html section .title ul,
+body section .title ul,
+.container section .title ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 3rem;
+  padding: 0.5rem 0;
+  box-sizing: border-box;
+}
+html section .title ul li,
+body section .title ul li,
+.container section .title ul li {
+  -webkit-box-flex: 1;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+html section .title ul li:nth-child(3),
+body section .title ul li:nth-child(3),
+.container section .title ul li:nth-child(3) {
+  border-right: none;
+}
+html section .title ul li img,
+body section .title ul li img,
+.container section .title ul li img {
+  width: 1rem;
+  height: auto;
+  background: 0;
+  margin-left: 0.6rem;
+}
+html section .title ul .bgColor,
+body section .title ul .bgColor,
+.container section .title ul .bgColor {
+  color: #ff7d1b;
+}
+html section .h1,
+body section .h1,
+.container section .h1 {
+  position: relative;
+  width: 100%;
+  height: 21rem;
+  background: #ffffff;
+  margin-top: 0.5rem;
+}
+html section .h1 .q1,
+body section .h1 .q1,
+.container section .h1 .q1 {
+  padding: 0 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f3f3f3;
+}
+html section .h1 .q1 h2,
+body section .h1 .q1 h2,
+.container section .h1 .q1 h2 {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  box-sizing: border-box;
+}
+html section .h1 p,
+body section .h1 p,
+.container section .h1 p {
+  padding: 0 1rem;
+  padding-top: 0.7rem;
+  box-sizing: border-box;
+  color: #666666;
+}
+html section .h1 p img,
+body section .h1 p img,
+.container section .h1 p img {
+  width: 6.5rem;
+  height: auto;
+  background: 0;
+  float: right;
+}
+html section .h1 h3,
+body section .h1 h3,
+.container section .h1 h3 {
+  padding-top: 0.6rem;
+  padding: 0 1rem;
+  line-height: 1.6rem;
+  border-bottom: 1px solid #f3f3f3;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
+}
+html section .h1 span,
+body section .h1 span,
+.container section .h1 span {
+  display: block;
+  width: 6rem;
+  height: 2rem;
+  background: 0;
+  margin-top: 1rem;
+  border-radius: 5px;
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  text-align: center;
+  color: #ff7d1b;
+  border: 1px solid #ff7d1b;
+}
+html section .h2,
+body section .h2,
+.container section .h2 {
+  width: 100%;
+  height: 21rem;
+  background: #ffffff;
+  margin-top: 0.5rem;
+}
+html section .h2 .q1,
+body section .h2 .q1,
+.container section .h2 .q1 {
+  padding: 0 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f3f3f3;
+}
+html section .h2 .q1 h2,
+body section .h2 .q1 h2,
+.container section .h2 .q1 h2 {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  box-sizing: border-box;
+}
+html section .h2 p,
+body section .h2 p,
+.container section .h2 p {
+  padding: 0 1rem;
+  padding-top: 0.7rem;
+  box-sizing: border-box;
+  color: #666666;
+}
+html section .h2 p img,
+body section .h2 p img,
+.container section .h2 p img {
+  width: 6.5rem;
+  height: auto;
+  background: 0;
+  float: right;
+}
+html section .h2 h3,
+body section .h2 h3,
+.container section .h2 h3 {
+  padding-top: 0.6rem;
+  padding: 0 1rem;
+  line-height: 1.6rem;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
+}
+html section .h2 h4,
+body section .h2 h4,
+.container section .h2 h4 {
+  padding: 0 1rem;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
+}
+html section .h2 h4 span,
+body section .h2 h4 span,
+.container section .h2 h4 span {
+  color: #666666;
+}
+html section .h2 h5,
+body section .h2 h5,
+.container section .h2 h5 {
+  background: #fff;
+  padding: 0 1rem;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
+}
+html section .h2 h5 span,
+body section .h2 h5 span,
+.container section .h2 h5 span {
+  color: #fe7e1b;
+}
+html .footer,
+body .footer,
+.container .footer {
+  width: 100%;
+  height: 5rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-top: 5px solid #f2f2f2;
+  text-align: center;
+}
+html .footer dl,
+body .footer dl,
+.container .footer dl {
+  margin-top: 0.5rem;
+  width: 20%;
+  height: auto;
+  background: 0;
+}
+html .footer dl dt img,
+body .footer dl dt img,
+.container .footer dl dt img {
+  width: 2rem;
+  height: 2rem;
+  background: 0;
+}
+html .footer .fa img,
+body .footer .fa img,
+.container .footer .fa img {
+  width: 4rem;
+  height: 3rem;
+  background: 0;
+}

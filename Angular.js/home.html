@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="css/home/home.css" />
+    <script src="js/angular.js"></script>
+    <script src="js/angular-ui-router.min.js"></script>
+</head>
+<body ui-view="body">
+	<div class="wrap">
+		<div ui-view="main">
+		<header>
+			<div class="headTitle">
+				<div><img src="img/menu.png" alt="" /></div>
+				<h1>优橙设计师移动工作台</h1>
+				<div></div>
+			</div>
+			<div class="peopleBox">
+				<div class="people">
+					<div class="headPhoto"><img src="img/head.png" alt="" /><p>Eminem</p></div>
+					<div class="headIntro">
+						<h1>XXX北京旗舰店<button>优橙签约</button></h1>
+						<p>店铺状态：<em>停业</em></p>
+					</div>
+					<div class="headRight"><img src="img/right.png" alt="" /></div>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="begin">
+				<div class="beginTitle">开始工作·start-up</div>
+				<div class="list">
+					<dl>
+						<dt><img src="img/fans.png" alt="" /></dt>
+						<dd><h1>粉丝</h1><p>120</p></dd>
+					</dl>
+					<dl>
+						<dt><img src="img/shop.png" alt="" /></dt>
+						<dd><h1>上架商品</h1><p>86</p></dd>
+					</dl>
+				</div>
+				<div class="list">
+					<dl>
+						<dt><img src="img/seave.png" alt="" /></dt>
+						<dd><h1>库存商品</h1><p>115</p></dd>
+					</dl>
+					<dl>
+						<dt><img src="img/caogao.png" alt="" /></dt>
+						<dd><h1>草稿箱</h1><p>15</p></dd>
+					</dl>
+				</div>
+				<div class="list">
+					<dl>
+						<dt><img src="img/money.png" alt="" /></dt>
+						<dd><a href="#"><h1>财务管理</h1></a><p>我的资金明细</p></dd>
+					</dl>
+					<dl>
+						<dt><img src="img/comment.png" alt="" /></dt>
+						<dd><h1>评论管理</h1><p>及时回户评论</p></dd>
+					</dl>
+				</div>
+			</div>
+			<div class="messBox">
+				<div class="messTitle">
+					<div class="num"><img src="img/mess.png" alt="" />消息箱（39）</div>
+					<div class="messRight"><img src="img/right.png" alt="" /></div>
+				</div>
+				<div class="messListBox">
+					<div class="messList">
+						<div class="messImg"><img src="img/wuliu.png" alt="" /></div>
+						<div class="messIntro">
+							<h1>物流消息</h1>
+							<p>您购买的【商】，请注意查收！</p>
+						</div>
+						<p>08:20</p>
+					</div>
+				</div>
+				<div class="messListBox">
+					<div class="messList">
+						<div class="messImg"><img src="img/trade.png" alt="" /></div>
+						<div class="messIntro">
+							<h1>交易消息</h1>
+							<p>已退款，请注意查收！</p>
+						</div>
+						<p>16/08/10</p>
+					</div>
+				</div>
+				<div class="messListBox">
+					<div class="messList">
+						<div class="messImg"><img src="img/trade.png" alt="" /></div>
+						<div class="messIntro">
+							<h1>交易消息</h1>
+							<p>已退款，请注意查收！</p>
+						</div>
+						<p>16/08/10</p>
+					</div>
+				</div>
+				<div class="messListBox">
+					<div class="messList">
+						<div class="messImg"><img src="img/trade.png" alt="" /></div>
+						<div class="messIntro">
+							<h1>交易消息</h1>
+							<p>已退款，请注意查收！</p>
+						</div>
+						<p>16/08/10</p>
+					</div>
+				</div>
+				<div class="messListBox">
+					<div class="messList">
+						<div class="messImg"><img src="img/trade.png" alt="" /></div>
+						<div class="messIntro">
+							<h1>交易消息</h1>
+							<p>已退款，请注意查收！</p>
+						</div>
+						<p>16/08/10</p>
+					</div>
+				</div>
+				<div class="messListBox">
+					<div class="messList">
+						<div class="messImg"><img src="img/trade.png" alt="" /></div>
+						<div class="messIntro">
+							<h1>交易消息</h1>
+							<p>已退款，请注意查收！</p>
+						</div>
+						<p>16/08/10</p>
+					</div>
+				</div>
+				<div class="messListBox">
+					<div class="messList">
+						<div class="messImg"><img src="img/trade.png" alt="" /></div>
+						<div class="messIntro">
+							<h1>交易消息</h1>
+							<p>已退款，请注意查收！</p>
+						</div>
+						<p>16/08/10</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		</div>
+		<footer>
+			<dl ui-sref='one'>
+				<dt><img src="img/home.png" alt="" /></dt>
+				<dd class="addColor">首页</dd>
+			</dl>
+			<dl ui-sref='two'>
+				<dt><img src="img/youcheng.png" alt="" /></dt>
+				<dd>优橙协助</dd>
+			</dl>
+			<dl ui-sref='three'>
+				<dt><img src="img/add.png" alt="" /></dt>
+				<dd></dd>
+			</dl>
+			<dl ui-sref='four'>
+				<dt><img src="img/indentB.png" alt="" /></dt>
+				<dd>订单状态</dd>
+			</dl>
+			<dl ui-sref='five'>
+				<dt><img src="img/my.png" alt="" /></dt>
+				<dd>我的店铺</dd>
+			</dl>
+		</footer>
+	</div>
+</body>
+<script>
+	var myDiv = angular.module("myapp", ['ui.router']);
+	myDiv.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
+		$stateProvider
+			.state("one", {
+				views:{
+					"body":{
+						url: 'one',
+						templateUrl: "home.html"	
+					}
+				}
+			})
+			.state("two", {
+				views:{
+					"body":{
+						url: 'two',
+						templateUrl: "help.html"
+					}
+				}
+			})
+			.state("three", {
+				views:{
+					"main":{
+						url: 'three',
+						templateUrl: "add.html"	
+					}
+				}
+			})
+			.state("four", {
+				views:{
+					"main":{
+						url: 'four',
+						templateUrl: "indent.html"	
+					}
+				}
+			})
+			.state("five", {
+				views:{
+					"main":{
+						url: '/five',
+						templateUrl: "myShop.html"	
+					} 
+				}
+			})
+
+//		$urlRouterProvider.otherwise("home");
+	}]);
+</script>
+</html>

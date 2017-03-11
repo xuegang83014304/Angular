@@ -1,0 +1,211 @@
+@import url(reset.css);
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  background-color: none;
+}
+html {
+  font-size: 62.5%;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrap header {
+  width: 100%;
+  height: 3.6rem;
+  background-color: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+  line-height: 3.6rem;
+  border-bottom: 1px solid #e4e4e4;
+}
+.wrap header h1 {
+  -webkit-box-flex: 1;
+  color: #101010;
+  font-size: 1.6rem;
+}
+.wrap header .back {
+  width: 3.6rem;
+  height: 3.6rem;
+  background-color: none;
+}
+.wrap header .back img {
+  width: 1rem;
+  height: auto;
+  background-color: none;
+  vertical-align: middle;
+}
+.wrap header .mess {
+  width: 3.6rem;
+  height: 3.6rem;
+  background-color: none;
+}
+.wrap header .mess img {
+  width: 1.6rem;
+  height: auto;
+  background-color: none;
+  vertical-align: middle;
+}
+.wrap section {
+  background-color: #f2f2f2;
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrap section .explain {
+  width: 100%;
+  height: 1.8rem;
+  background-color: none;
+  color: #565656;
+  font-size: 1.1rem;
+  padding-left: 1rem;
+  line-height: 1.8rem;
+  box-sizing: border-box;
+}
+.wrap section .explain em {
+  color: #fd6000;
+}
+.wrap section .mainBox {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+.wrap section .mainBox .main {
+  margin-left: 1rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 2.8rem;
+  background-color: none;
+  line-height: 2.8rem;
+  border-bottom: 1px solid #f5f5f5;
+}
+.wrap section .mainBox .main p {
+  color: #2b2b2b;
+  -webkit-box-flex: 1;
+  font-size: 1.1rem;
+}
+.wrap section .mainBox .main p em {
+  color: #a0a0a0;
+}
+.wrap section .mainBox .main .mainImg img {
+  width: 0.6rem;
+  height: auto;
+  background-color: none;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+.wrap section .mainBox .mains {
+  margin-left: 1rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 2.8rem;
+  background-color: none;
+  line-height: 2.8rem;
+  border-bottom: 1px solid #f5f5f5;
+}
+.wrap section .mainBox .mains p {
+  color: #2b2b2b;
+  -webkit-box-flex: 1;
+  font-size: 1.1rem;
+}
+.wrap section .mainBox .mains p em {
+  color: #a0a0a0;
+}
+.wrap section .mainBox .mainPhoto p {
+  width: 100%;
+  height: 2.8rem;
+  background-color: none;
+  color: #070707;
+  font-size: 1.1rem;
+  line-height: 2.8rem;
+  margin-left: 1rem;
+}
+.wrap section .mainBox .mainPhoto .threePhoto {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-bottom: 1.2rem;
+}
+.wrap section .mainBox .mainPhoto .threePhoto > div {
+  width: 7rem;
+  height: 7rem;
+  background-color: none;
+  margin-left: 1rem;
+  margin-right: 0.2rem;
+}
+.wrap section .mainBox .mainPhoto .threePhoto > div img {
+  width: 7rem;
+  height: auto;
+  background-color: none;
+}
+.wrap section .mainBox .mainPhoto .threePhoto > div:nth-of-type(3) {
+  border: 1px solid #ebebeb;
+  text-align: center;
+  line-height: 7rem;
+}
+.wrap section .mainBox .mainPhoto .threePhoto > div:nth-of-type(3) img {
+  width: 4.2rem;
+  height: auto;
+  background-color: none;
+  vertical-align: middle;
+}
+.wrap section .manBox {
+  width: 100%;
+  height: 4.4rem;
+  background-color: #ffffff;
+  margin-top: 1rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.wrap section .manBox .man {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrap section .manBox .man > div img {
+  width: 1.2rem;
+  height: auto;
+  background-color: none;
+  vertical-align: middle;
+}
+.wrap section .manBox .man p {
+  color: #2c2c2c;
+  font-size: 1.1rem;
+  line-height: 2.2rem;
+  margin-left: 0.8rem;
+}
+.wrap section .manBox .man p em {
+  margin-left: 1.3rem;
+}
+.wrap footer {
+  width: 100%;
+  height: 4.2rem;
+  background-color: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrap footer p {
+  -webkit-box-flex: 1;
+  font-size: 1.4rem;
+  color: #383838;
+  line-height: 4.2rem;
+  margin-left: 1rem;
+}
+.wrap footer p em {
+  color: #ff7d1b;
+}
+.wrap footer button {
+  width: 8.6rem;
+  height: 4.2rem;
+  background-color: #ff7d1b;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1.4rem;
+}

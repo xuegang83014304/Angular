@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <title></title>
+	
+	    <link rel="stylesheet" href="css/yldp.css" />	    
+	    <script type="text/javascript">
+	    	
+	   		document.addEventListener('plusready', function(){
+	   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+	   			
+	   		});
+	   		
+	    </script>
+	</head>
+	<body>
+		<div class="warp" >
+			<header>
+				<div  class="left" ><img src="img/images1/cw1_06.jpg" ui-sref="dian"></div>
+				<h1 class="center">预览店铺</h1>				
+				<div class="right"><img src="img/images1/cw1_03.jpg"/></div>
+				
+			</header>
+			<section>
+				<div ng-controller="look">
+					<div class="main1">
+						<div class="top">
+							<dl>
+								<dt><img src="img/images1/zx2_14.jpg"/></dt>
+								<dd>
+									趣玩生活旗舰店 <img src="img/images1/zx2_17.jpg" /><br />Jason
+								</dd>
+								<span><img src="img/images1/zx2_20.jpg"/></span>
+							</dl>
+						</div>
+						<div class="bottom">
+							<ul>
+								<li class="fli"><img src="img/images1/zx2_25.jpg"/><br/>店铺首页</li>
+								<li><img src="img/images1/zx2_31.jpg"/><br/>全部商品</li>
+								<li><img src="img/images1/zx2_28.jpg"/><br />新品上架</li>
+							</ul>
+						</div>
+					</div>
+					<div class="lunbo">
+						<img src="img/images1/zx1_04.jpg"/>
+					</div>
+					<div class="shangpin" ng-repeat="a in store">
+						<dl>
+							<dt><img src="{{a.img}}"/></dt>
+							<dd>{{a.name}}</dd>
+							<p><span class="geng">{{a.payment}}人付款 {{a.collect}}人收藏</span>￥{{a.money}}</p>
+						</dl>
+						<dl>
+							<dt><img src="img/images1/zx2_38.jpg"/></dt>
+							<dd>【3D打印的陶瓷】艺术家Michael Eden认为陶...</dd>
+							<p><span class="geng">16人付款 30人收藏</span>￥180</p>
+						</dl>
+					</div>
+					<div class="shangpin">
+						<dl>
+							<dt><img src="img/images1/zx2_36.jpg"/></dt>
+							<dd>来自荷兰的设计师David Grass利用3D打印技术...</dd>
+							<p><span class="geng">16人付款 30人收藏</span>￥128</p>
+						</dl>
+						<dl>
+							<dt><img src="img/images1/zx2_38.jpg"/></dt>
+							<dd>【3D打印的陶瓷】艺术家Michael Eden认为陶...</dd>
+							<p><span class="geng">16人付款 30人收藏</span>￥180</p>
+						</dl>
+					</div>
+					<div class="shangpin">
+						<dl>
+							<dt><img src="img/images1/zx2_36.jpg"/></dt>
+							<dd>来自荷兰的设计师David Grass利用3D打印技术...</dd>
+							<p><span class="geng">16人付款 30人收藏</span>￥128</p>
+						</dl>
+						<dl>
+							<dt><img src="img/images1/zx2_38.jpg"/></dt>
+							<dd>【3D打印的陶瓷】艺术家Michael Eden认为陶...</dd>
+							<p><span class="geng">16人付款 30人收藏</span>￥180</p>
+						</dl>
+					</div>
+				</div>
+			</section>
+			<footer style="height:45px;">
+				<ul>
+					<li>作品分类</li>
+					<li>设计师简介</li>
+					<li class="lli">联系设计师</li>
+				</ul>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,260 @@
+@import url(m_style.css);
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: none;
+  height: 100%;
+  background: url(../img/images/a1.png) no-repeat;
+  background-size: 100% 100%;
+}
+header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 3.5rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+}
+header img {
+  width: auto;
+  height: 1.4rem;
+  background: 0;
+  padding: 1rem;
+}
+header h2 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 3.5rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  width: 100%;
+  height: auto;
+  background: #f2f2f2;
+}
+section::-webkit-scrollbar {
+  width: 0;
+}
+section .main img {
+  width: 100%;
+  height: auto;
+  background: 0;
+}
+section .portrait {
+  background: #fff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 0.5rem;
+  margin-top: -2.5rem;
+  box-sizing: border-box;
+}
+section .portrait .imgs img {
+  width: 3rem;
+  height: auto;
+  background: 0;
+}
+section .portrait .name {
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+}
+section .portrait .name h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+section .portrait .name p {
+  font-size: 0.8rem;
+  line-height: 3rem;
+}
+section .portrait .name p img {
+  width: 1.1rem;
+  height: auto;
+  background: #ffffff;
+  vertical-align: baseline;
+}
+section .portrait .name p label {
+  color: #8c8ec8;
+}
+section .miaoshu {
+  position: relative;
+  padding-left: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #fff;
+  padding-bottom: 0.8rem;
+}
+section .miaoshu .attention {
+  position: absolute;
+  width: 4rem;
+  height: auto;
+  background: 0;
+  right: 1rem;
+  top: -4rem;
+}
+section .miaoshu .attention img {
+  width: 4rem;
+  height: auto;
+  background: 0;
+}
+section .main2 {
+  width: 100%;
+  height: auto;
+  background: 0;
+}
+section .main2 .xinxi {
+  margin-top: 0.6rem;
+}
+section .main2 .xinxi h2 {
+  width: 100%;
+  height: 2.5rem;
+  background: #ffffff;
+  line-height: 2.5rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+section .main2 .xinxi1 {
+  margin-top: 0.1rem;
+  width: 100%;
+  height: 2.3rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .main2 .xinxi1 img {
+  width: auto;
+  height: 1.3rem;
+  background: 0;
+  padding: 0.6rem;
+}
+section .main2 .xinxi1 h3 {
+  -webkit-box-flex: 1;
+  line-height: 2.3rem;
+  color: #9b9dcf;
+}
+section .main2 .xinxi1 h4 {
+  -webkit-box-flex: 1;
+  line-height: 2.3rem;
+}
+section .main2 .xinxi1 p {
+  background: #fff;
+}
+.bigdiv {
+  width: 100%;
+  height: 100%;
+  background: #999999;
+  position: absolute;
+  opacity: 0.5;
+  top: 0;
+  z-index: 998;
+  display: none;
+}
+.share {
+  width: 100%;
+  height: auto;
+  background: 0;
+  position: absolute;
+  bottom: 1rem;
+  padding: 0 1rem;
+  z-index: 999;
+  box-sizing: border-box;
+  display: none;
+}
+.share .share_2 {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  border-radius: 15px;
+  padding-bottom: 1rem;
+}
+.share .share_1 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: auto;
+  background: none;
+  padding-top: 1rem;
+}
+.share .share_1 dl {
+  width: 25%;
+  height: auto;
+  background: none;
+  text-align: center;
+}
+.share .share_1 dl dt img {
+  width: auto;
+  height: 2.1rem;
+  background: #ffffff;
+}
+.share p {
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  border-radius: 15px;
+  line-height: 4rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.photo {
+  width: 100%;
+  height: auto;
+  background: none;
+  position: absolute;
+  display: none;
+  bottom: 0;
+  z-index: 999;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+.photo ul {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  border-radius: 15px;
+}
+.photo ul li {
+  line-height: 4rem;
+  text-align: center;
+}
+.photo ul li:nth-child(1) {
+  border-bottom: 1px solid #ccc;
+}
+.photo p {
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  border-radius: 15px;
+  line-height: 4rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.QRcode {
+  width: 100%;
+  height: auto;
+  background: 0;
+  text-align: center;
+}
+.QRcode img {
+  width: 15rem;
+  height: auto;
+  background: 0;
+  margin-top: 10rem;
+}

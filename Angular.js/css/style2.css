@@ -1,0 +1,145 @@
+@import url(reset.css);
+.a {
+  position: absolute;
+}
+.r {
+  position: relative;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  background: 0;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+}
+.container header {
+  padding: 0 1rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  font-size: 1.6rem;
+  width: 100%;
+  height: 4rem;
+  background: 0;
+  line-height: 4rem;
+  border-bottom: 1px solid #bfbfbf;
+}
+.container header .left img {
+  width: 1rem;
+  height: auto;
+  background: 0;
+}
+.container header .center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+.container header .right img {
+  width: 1.8rem;
+  height: auto;
+  background: 0;
+}
+.container section .business {
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+}
+.container section .business ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .business ul li {
+  position: relative;
+  -webkit-box-flex: 1;
+  text-align: center;
+  width: 0;
+}
+.container section .business ul li a {
+  border-left: 1px solid #ccc;
+  line-height: 3rem;
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+.container section .business ul li a img {
+  width: 1rem;
+  height: auto;
+  background: 0;
+  padding-left: 0.5rem;
+}
+.container section .business ul li div {
+  display: none;
+  width: 100%;
+  height: 15.5rem;
+  background: #ffffff;
+  position: absolute;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.container section .business ul li div p {
+  border-bottom: 1px solid #ccc;
+  line-height: 3rem;
+  box-sizing: border-box;
+}
+.container section .business ul li div .se {
+  color: #ff811d;
+}
+.container section .business ul li div .n {
+  border: none;
+}
+.container section .business ul .on {
+  border-bottom: 1px solid #ff944f;
+}
+.container section .business ul .on a {
+  color: #ff944f;
+}
+.container section .business ul .o a {
+  border-left: none;
+}
+.container section .oms {
+  width: 100%;
+  height: 5rem;
+  background: #ffffff;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  margin-top: 0.6rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.container section .oms p {
+  margin-top: 0.5rem;
+}
+.container section .oms .oms1 {
+  width: 14rem;
+  height: 100%;
+  background: 0;
+}
+.container section .oms .oms1 .f {
+  color: #4f54b0;
+}
+.container section .oms .oms1 .z {
+  color: #f65754;
+}
+.container section .oms .oms2 {
+  -webkit-box-flex: 1;
+  text-align: right;
+}
+.container section .oms .oms2 .j {
+  color: #ff811d;
+}
+.container section .oms .oms2 p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

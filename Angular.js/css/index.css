@@ -1,0 +1,290 @@
+@import url(reset.css);
+.warp {
+  width: 100%;
+  height: 100%;
+  background: none;
+  box-sizing: border-box;
+}
+.warp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.warp .one {
+  overflow: auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-flex: 1;
+}
+.header {
+  width: 100%;
+  height: 4rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #bfbfbf;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.header .left {
+  width: 4rem;
+  height: 4rem;
+  background: 0;
+}
+.header .left img {
+  width: 2rem;
+  height: 2rem;
+  background: 0;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+.header .center {
+  -webkit-box-flex: 1;
+  color: #262626;
+  font-size: 20px;
+  text-align: center;
+  line-height: 4rem;
+}
+.header .right {
+  width: 4rem;
+  height: 4rem;
+  background: 0;
+}
+section {
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+}
+section .nav {
+  width: 100%;
+  height: 10rem;
+  background: 0;
+  border-bottom: 1px solid #bfbfbf;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .nav .nl {
+  width: 8rem;
+  height: auto;
+  background: 0;
+  text-align: center;
+}
+section .nav .nl dl {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  margin-top: 1rem;
+}
+section .nav .nl dl dt img {
+  width: 6.5rem;
+  height: 6.5rem;
+  background: 0;
+}
+section .nav .nc {
+  -webkit-box-flex: 1;
+}
+section .nav .nc dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .nav .nc dl dt img {
+  height: 6.5rem;
+  margin-top: 2rem;
+}
+section .nav .nc dl dd p {
+  font-size: 15px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+section .nav .nc dl dd p a {
+  color: #ff4808;
+}
+section .nav .nc dl dd p span {
+  float: right;
+  display: block;
+  width: 5.8rem;
+  height: 1.8rem;
+  background: #ff4808;
+  color: white;
+  text-align: center;
+}
+section .nav .nr {
+  width: 3rem;
+  height: auto;
+  background: 0;
+  text-align: center;
+}
+section .nav .nr img {
+  width: 1rem;
+  height: 2rem;
+  background: 0;
+  margin-top: 4rem;
+}
+section .keep {
+  width: 100%;
+  height: auto;
+  background: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  border-top: 10px solid #f2f2f2;
+  border-bottom: 7px solid #f2f2f2;
+}
+section .keep .kt {
+  width: 100%;
+  height: 3rem;
+  background: 0;
+  text-align: center;
+}
+section .keep .kt p {
+  color: #ff7f1d;
+  font-size: 18px;
+  margin-top: 0.5rem;
+}
+section .keep .kt p a {
+  font-size: 12px;
+  color: #ff7f1d;
+}
+section .keep .kb {
+  width: 100%;
+  height: auto;
+  background: 0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .keep .kb dl {
+  width: 50%;
+  height: 7rem;
+  background: 0;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .keep .kb dl dt img {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: 0;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+section .keep .kb dl dd {
+  margin-left: 2rem;
+}
+section .keep .kb dl dd p {
+  color: #000000;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+section .keep .kb dl dd p a {
+  color: #808080;
+  font-size: 11px;
+}
+section .main {
+  width: 100%;
+  height: auto;
+  background: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+section .main .m1 {
+  width: 100%;
+  height: 3rem;
+  background: 0;
+  border-bottom: 1px solid #ccc;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+section .main .m1 .m1_l {
+  -webkit-box-flex: 1;
+  width: 2rem;
+  height: auto;
+  background: 0;
+}
+section .main .m1 .m1_l dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-top: 0.5rem;
+}
+section .main .m1 .m1_l dl dt img {
+  width: 3rem;
+  height: 2rem;
+  background: 0;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+section .main .m1 .m1_l img {
+  width: 1rem;
+  height: 2rem;
+  background: 0;
+}
+section .main .m1 .m1_r {
+  width: 3rem;
+  height: auto;
+  background: 0;
+  text-align: center;
+}
+section .main .m1 .m1_r img {
+  width: 1rem;
+  height: 2rem;
+  background: 0;
+  margin-top: 0.5rem;
+}
+section .main .m2 {
+  width: 100%;
+  height: 5rem;
+  background: 0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #ccc;
+}
+section .main .m2 .m2_l {
+  -webkit-box-flex: 1;
+}
+section .main .m2 .m2_l dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+section .main .m2 .m2_l dl dt img {
+  width: 3rem;
+  height: 3rem;
+  background: 0;
+  margin-right: 1rem;
+}
+section .main .m2 .m2_l dl dd p {
+  color: #000000;
+}
+section .main .m2 .m2_l dl dd p a {
+  color: #a2a2a2;
+}
+section .main .m2 .m2_r {
+  width: 4rem;
+  height: auto;
+  background: 0;
+  text-align: center;
+  margin-top: 1.3rem;
+  margin-left: 1rem;
+}
+.footer {
+  width: 100%;
+  height: 5rem;
+  background: 0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-top: 5px solid #f2f2f2;
+  text-align: center;
+}
+.footer dl {
+  margin-top: 0.5rem;
+  width: 20%;
+  height: auto;
+  background: 0;
+}
+.footer dl dt img {
+  width: 2rem;
+  height: 2rem;
+  background: 0;
+}
+.footer .fa img {
+  width: 4rem;
+  height: 3rem;
+  background: 0;
+}

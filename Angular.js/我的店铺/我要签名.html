@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<link rel="stylesheet" type="text/css" href="../css/wodedianpu/yaoqianming.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="wrap">
+			<header>
+				<a href="店铺个人.html"><img/img src="../img/shouci/c_03.png" /></a>
+				<h2>我要签约</h2>
+			</header>
+			<section>
+				<h2><input type="checkbox" /> 我已仔细阅读签约条款</h2>
+				<div class="but">
+					<button>我想签约</button>
+				</div>
+			</section>
+		</div>
+		<div class="bigdiv"></div>
+			<div class="share">
+				<div class="share_2">
+					<p>优橙客服会在5个工作日联系你</p>
+					<p style="color: #1583FE;">好的</p>
+				</div>
+			<!--	<p>取消</p>-->
+			</div>
+	</body>
+	<script src="../js/jquery-3.1.1.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			//分享朋友圈
+			$('.but').click(function() {
+				$('.bigdiv').show();
+				$('.share').show();
+			})
+			$('.share p').click(function() {
+				$('.bigdiv').hide();
+				$('.share').hide();
+			})
+		})
+	</script>
+</html>

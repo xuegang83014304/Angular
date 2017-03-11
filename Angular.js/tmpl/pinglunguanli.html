@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});
+   		
+    </script>
+   <link rel="stylesheet" type="text/css" href="css/pinglunguanli.css"/>
+    <script src="../js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div class="container" ng-controller="ping">
+        <header>
+        	<div class="left"><img src="img/images1/xiaoxi_03.jpg" ui-sref="shou"/></div>
+        	<div class="center">评论管理</div>
+        	<div class="right"><img src="img/images1/bangding_03.jpg"/></div>
+        </header>
+         <section>
+         	<div class="title">
+         		<ul>
+         			<li class="bgColor">全部类型<img src="img/images1/pinglunguanl_03.jpg"/></li>
+         			<li>评分等级<img src="img/images1/gengduo_03.jpg"/></li>
+         			<li>评论时间<img src="img/images1/gengduo_03.jpg"/></li>
+         		</ul>
+         	</div>
+         	<div ng-repeat="x in data">
+
+         	<div class="h2">
+         		<div class="q1">
+         			<h2>{{x.discuss_home}}</h2>
+         		</div>
+         		<p>订单编号 : {{x.discuss_num}} <img src="img/images1/pinglun_03.jpg"/></p>
+         		<p>用户ID : {{x.discuss_name}}</p>
+         		<p>交易时间 : {{x.discuss_time}}</p>
+         		<h3>{{x.discuss}}</h3>
+         	     <h4><span>追加评论 : </span>{{x.addto}}</h4>
+         	     <h5><span>您的回复 : </span>{{x.reply}}</h5>
+         	     
+         	</div>
+         	</div>
+         </section>
+          
+          			<!--<div class="footer">
+				<dl class="on">
+					<dt><img src="img/images1/shouye_40.gif"/></dt>
+					<dd>首页</dd>
+				</dl>
+				<dl class="two"> 
+					<dt><img src="img/images1/shouye_45.gif"/></dt>
+					<dd>优橙协助</dd>
+				</dl>
+				<dl class="fa">
+					<dt><img src="img/images1/shouye_42.gif"/></dt>
+					<dd></dd>
+				</dl>
+				<dl>
+					<dt><img src="img/images1/shouye_48.gif"/></dt>
+					<dd>订单状态</dd>
+				</dl>
+				<dl class="four">
+					<dt><img src="img/images1/shouye_51.gif"/></dt>
+					<dd>我的店铺</dd>
+				</dl>
+			</div>-->
+	</div>
+	 
+</body>
+<script src="js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".title ul li").click(function(){
+			var index=$(this).index();
+			$(".title ul li").removeClass("bgColor").eq(index).addClass("bgColor");
+			$(".title ul li img").attr({ src: "img/images1/gengduo_03.jpg"}).eq(index).attr({ src: "img/images1/pinglunguanl_03.jpg"});
+		})
+	})
+</script>
+    <script type="text/javascript">     
+        //兼容火狐、IE8   
+        //显示遮罩层    
+        $(".h1 span").click(function(){
+        	$("#mask").css("height",$(document).height());     
+            $("#mask").css("width",$(document).width());     
+            $("#mask").show();  
+        })
+
+
+    </script>  
+</html>

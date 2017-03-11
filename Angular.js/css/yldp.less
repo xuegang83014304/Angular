@@ -1,0 +1,202 @@
+@import url(reset.css);
+.whb(@w,@h,@b){
+    width:@w;
+    height:@h;
+    background:@b ;
+}
+
+//封装浮动
+.f(@f){
+    float:@f;
+}
+
+//封装定位 相对定位
+.r{
+    position:relative;
+}
+//绝对定位
+.a{
+    position: absolute;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.box(@ver:vertical){//vertical  horizontal
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
+html{
+    font-size: 62.5%;
+}
+html,body,.warp{
+    .whb(100%,100%,0);
+    background: #f2f2f2;
+}
+.warp{
+    .box;
+}
+header {
+    .whb(100%,4rem,#f7f7f7);
+    border-bottom: 1px solid #bfbfbf;
+    .box(horizontal);
+    .left {
+        .whb(4rem,4rem,0);
+        line-height: 4rem;
+        text-align: center;
+        img {
+            .whb(1rem,auto,0);         
+        }
+    }
+    .center {
+        -webkit-box-flex: 1;
+        color: #262626;
+        font-size: 20px;
+        text-align: center;
+        line-height: 4rem;
+    }
+    .right {
+                line-height: 4rem;
+        text-align: center;
+        .whb(4rem,4rem,0);
+        img{
+            .whb(2rem,auto,0);
+        }
+    }
+}
+section{
+    -webkit-box-flex: 1;
+    overflow: auto;
+    &::-webkit-scrollbar{width:0};
+    .main1{
+        .whb(100%,10.4rem,0);
+        background: url(../../img/dianpu/zx1_02.jpg) no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: 0.3rem;
+        .r;
+        .top{
+            .whb(100%,4rem,0);
+            padding: 0 1rem;
+            box-sizing: border-box;
+            .a;
+            bottom: 4.6rem;
+            dl{
+                .box(horizontal);
+                .whb(100%,100%,0);
+                .r;
+                dt{
+                    .whb(4rem,4rem,0);
+                    margin-right: 0.4rem;
+                    img{
+                        .whb(100%,100%,0);
+                    }
+                }
+                dd{
+                    -webkit-box-flex: 1;
+                    text-align: left;
+                    color: #fff;
+                    line-height: 2rem;
+                    img{
+                        .whb(4rem,1rem,0);
+                        vertical-align: middle;
+                    }
+                }
+                span{
+                    .whb(4.2rem,2rem,0);
+                    img{
+                        .whb(100%,100%,0);
+                    }
+                    .a;
+                    right:0;
+                    bottom: 0.5rem;
+                }
+            }
+        }
+        .bottom{
+            .whb(100%,4.6rem,0);
+            background:rgba(255, 255, 255, 0.8)!important;
+            .a;
+            bottom: 0;
+            ul{
+                .whb(100%,100%,0);
+                .box(horizontal);
+                text-align: center;
+                padding-top: 0.6rem;
+                box-sizing: border-box;
+            }
+            li{
+                -webkit-box-flex: 1;
+                img{
+                    .whb(1.8rem,1.8rem,0);
+                    
+                }
+            }
+            .fli{
+                color: #fd8225;
+                border-bottom: 1px #fd8225 solid;
+            }
+        }
+    }
+    .lunbo{
+        .whb(100%,auto,0);
+        img{
+            .whb(100%,auto,0);
+        }
+    }
+    .shangpin{
+            width: 100%;
+            padding:0 0.8rem;
+            box-sizing: border-box;
+            
+            .box(horizontal);
+            dl{
+                .whb(50%,auto,0);
+                padding: 0 0.2rem;
+            box-sizing: border-box;
+                
+                margin-top: 0.3rem;
+                .r;
+                img{
+                    .whb(100%,auto,0);
+                }
+                dd{
+                    .whb(100%,6rem,#fff);
+                    padding: 0.5rem 0.5rem 1.2rem;
+                    box-sizing: border-box;
+                }
+                p{
+                    .whb(100%,1.4rem,0);
+                    padding: 0 0.4rem;
+                    padding-right: 0.8rem;
+                    box-sizing: border-box;
+                    color: #fe812f;
+                    .a;
+                    bottom: 1rem;
+                    .geng{
+                        .f(right);
+                        color: #c7c7c7;
+                    }
+                }
+            }
+        }
+    
+}
+footer{
+    .whb(100%,4rem,#fff);
+    border-top: #ededed;
+//  line-height: 4rem;
+    ul{
+        .whb(100%,100%,0);
+        .box(horizontal);
+        text-align: center;
+    }
+    li{
+        -webkit-box-flex: 1;
+        border-right: 1px #ebebeb solid;
+        line-height: 3.5rem;
+        font-size: 1.4rem;
+    }
+    .lli{
+        border: none;
+    }
+}

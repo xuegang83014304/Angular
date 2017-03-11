@@ -1,0 +1,155 @@
+@import url(reset.css);
+.a {
+  position: absolute;
+}
+.r {
+  position: relative;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+}
+html header,
+body header,
+.container header {
+  padding: 0 1rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  font-size: 1.6rem;
+  width: 100%;
+  height: 4rem;
+  background: 0;
+  line-height: 4rem;
+  border-bottom: 1px solid #bfbfbf;
+}
+html header .left img,
+body header .left img,
+.container header .left img {
+  width: 1rem;
+  height: auto;
+  background: 0;
+}
+html header .center,
+body header .center,
+.container header .center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+html header .right img,
+body header .right img,
+.container header .right img {
+  width: 1.8rem;
+  height: auto;
+  background: 0;
+}
+html section .uname,
+body section .uname,
+.container section .uname {
+  border-top: 1px solid #bfbfbf;
+  margin-top: 0.5rem;
+  width: 100%;
+  height: 3.9rem;
+  background: #ffffff;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+html section .uname .uname1,
+body section .uname .uname1,
+.container section .uname .uname1 {
+  color: #666666;
+  font-size: 1.4rem;
+  line-height: 3.9rem;
+  border-bottom: 1px solid #bfbfbf;
+  width: 100%;
+  height: 3.9rem;
+  background: 0;
+}
+html section .uname .uname1 .txt,
+body section .uname .uname1 .txt,
+.container section .uname .uname1 .txt {
+  border: none;
+  outline: none;
+  line-height: 3.9rem;
+}
+html section .verify,
+body section .verify,
+.container section .verify {
+  line-height: 3.9rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #bfbfbf;
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  margin-top: 0.2rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+html section .verify .verify1,
+body section .verify .verify1,
+.container section .verify .verify1 {
+  font-size: 1.4rem;
+  -webkit-box-flex: 1;
+}
+html section .verify .verify1 .txt,
+body section .verify .verify1 .txt,
+.container section .verify .verify1 .txt {
+  width: 100%;
+  height: auto;
+  background: 0;
+  border: none;
+  outline: none;
+  line-height: 3.8rem;
+}
+html section .verify .verify2,
+body section .verify .verify2,
+.container section .verify .verify2 {
+  border-left: 1px solid #bfbfbf;
+  width: 8rem;
+  height: 3.9rem;
+  background: 0;
+  text-align: center;
+}
+html section .verify .verify3,
+body section .verify .verify3,
+.container section .verify .verify3 {
+  color: #666666;
+  font-size: 1.4rem;
+  line-height: 3.8rem;
+}
+html section .tx,
+body section .tx,
+.container section .tx {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+}
+html section .btn,
+body section .btn,
+.container section .btn {
+  padding: 0 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: 3rem;
+  background: 0;
+}
+html section .btn .btn1,
+body section .btn .btn1,
+.container section .btn .btn1 {
+  width: 100%;
+  height: 3rem;
+  background: #ff7f1c;
+  text-align: center;
+  line-height: 3rem;
+  color: #fff;
+  border-radius: 7px;
+}

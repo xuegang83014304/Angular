@@ -1,0 +1,203 @@
+@import url(reset.css);
+.a {
+  position: absolute;
+}
+.r {
+  position: relative;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+}
+html header,
+body header,
+.container header {
+  padding: 0 1rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  font-size: 1.6rem;
+  width: 100%;
+  height: 4rem;
+  background: 0;
+  line-height: 4rem;
+  border-bottom: 1px solid #bfbfbf;
+}
+html header .left img,
+body header .left img,
+.container header .left img {
+  width: 1rem;
+  height: auto;
+  background: 0;
+  vertical-align: middle;
+}
+html header .center,
+body header .center,
+.container header .center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+html header .right img,
+body header .right img,
+.container header .right img {
+  vertical-align: middle;
+  width: 1.8rem;
+  height: auto;
+  background: 0;
+}
+html section .tx,
+body section .tx,
+.container section .tx {
+  width: 100%;
+  height: 3.5rem;
+  background: #f2f2f2;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  color: #959595;
+}
+html section .money,
+body section .money,
+.container section .money {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  line-height: 4rem;
+  border-bottom: 1px solid #ccc;
+}
+html section .money .money1,
+body section .money .money1,
+.container section .money .money1 {
+  font-size: 1.4rem;
+  margin-top: 0.2rem;
+}
+html section .money .money2,
+body section .money .money2,
+.container section .money .money2 {
+  -webkit-box-flex: 1;
+}
+html section .money .money2 input,
+body section .money .money2 input,
+.container section .money .money2 input {
+  font-size: 1.2rem;
+  width: 100%;
+  height: auto;
+  background: 0;
+  border: none;
+  outline: none;
+}
+html section .dbh,
+body section .dbh,
+.container section .dbh {
+  padding: 0 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: 7.5rem;
+  background: #ffffff;
+  margin-top: 0.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+html section .dbh p,
+body section .dbh p,
+.container section .dbh p {
+  color: #666666;
+  -webkit-box-flex: 1;
+  line-height: 2.5rem;
+}
+html section .dbh p span,
+body section .dbh p span,
+.container section .dbh p span {
+  color: #ff811d;
+}
+html section .zff,
+body section .zff,
+.container section .zff {
+  color: #666666;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: 3rem;
+  background: #ffffff;
+  margin-top: 0.5rem;
+  line-height: 3rem;
+}
+html section .zfb,
+body section .zfb,
+.container section .zfb {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  padding: 0 1rem;
+  margin-top: 0.1rem;
+  box-sizing: border-box;
+  line-height: 4rem;
+}
+html section .zfb img,
+body section .zfb img,
+.container section .zfb img {
+  margin-right: 1rem;
+  width: 2.5rem;
+  height: auto;
+  background: 0;
+}
+html section .zfb .zfb1,
+body section .zfb .zfb1,
+.container section .zfb .zfb1 {
+  width: 10rem;
+  height: auto;
+  background: 0;
+}
+html section .zfb .zfb2,
+body section .zfb .zfb2,
+.container section .zfb .zfb2 {
+  -webkit-box-flex: 1;
+  text-align: right;
+}
+html section .zfb .zfb2 img,
+body section .zfb .zfb2 img,
+.container section .zfb .zfb2 img {
+  margin: 0;
+}
+html section .tx,
+body section .tx,
+.container section .tx {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+}
+html section .btn,
+body section .btn,
+.container section .btn {
+  padding: 0 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: 3rem;
+  background: 0;
+}
+html section .btn .btn1,
+body section .btn .btn1,
+.container section .btn .btn1 {
+  width: 100%;
+  height: 3rem;
+  background: #ff7f1c;
+  text-align: center;
+  line-height: 3rem;
+  color: #fff;
+  border-radius: 7px;
+}

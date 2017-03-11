@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <link rel="stylesheet" type="text/css" href="css/fensiliebiao.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="warp" ng-controller="fen">
+			<header>
+				<img src="img/images1/q_03.png" alt=""  ui-sref="shou"/>
+				<p>粉丝列表（1230）</p>
+				<div class="a"></div>
+			</header>
+			<section>
+				<dl ng-repeat="x in data">
+					<dt><img src="img/images1/fs-1_03.png" alt="" /></dt>
+					<dd>{{x.name}}</dd>
+				</dl>
+
+			</section>
+		</div>
+	</body>
+</html>

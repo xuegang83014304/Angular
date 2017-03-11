@@ -1,0 +1,182 @@
+@import url(reset.css);
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@dir:vertical) {
+    display: -webkit-box;
+    -webkit-box-orient: @dir; // vertical horizontal
+}
+.a {
+    position: absolute;
+}
+.r {
+    position: relative;
+}
+html {
+    font-size: 62.5%;
+}
+.f(@f) {
+    float: @f;
+}
+html,
+body,
+.container {
+    .box;
+    .whb(100%,100%,#f2f2f2);
+
+    header {
+        padding: 0 1rem;
+        box-sizing: border-box;
+        .box(horizontal);
+        font-size: 1.6rem;
+        .whb(100%,4rem,#ff7f1c);
+        line-height: 4rem;
+        .left {
+            img {
+                .whb(1rem,auto,0);
+            }
+        }
+        .center {
+            -webkit-box-flex: 1;
+            text-align: center;
+            color: #fff;
+        }
+        .right {
+            img {
+                .whb(1.8rem,auto,0);
+            }
+        }
+    }
+    section{
+        overflow: auto;
+        -webkit-box-flex: 1;
+        .box{
+            padding: 0 1rem;
+            box-sizing: border-box;
+            .whb(100%,20rem,#fff);
+            .add{
+                .whb(100%,auto,0);
+                padding-top: 1.1rem;           
+               
+                span{
+                    .f(right);
+                     margin-right: 1rem;
+                    display: block;
+                    .whb(6rem,1.5rem,0);
+                    color: #ff7613;
+                    border: 1px solid #ff7613;
+                    text-align: center;
+                    border-radius: 5px;
+                }
+            }
+            .ye{
+                text-align: center;
+                p{
+                    margin-top: 3.5rem;
+                    span{
+                        display: inline-block;
+                       
+                        &:nth-child(1){
+                            margin-right: 3rem;
+                            text-align: center;
+                            line-height: 3rem;
+                            .whb(8rem,3rem,#ff7f1c);
+                            color: #fff;
+                            border-radius: 25px;
+                        }
+                            &:nth-child(2){
+                                .whb(8rem,3rem,0);
+                            margin-left: 3rem;
+                             text-align: center;
+                             border-radius: 25px;
+                            line-height: 3rem;  
+                            color: #ff7f1c;  
+                            border: 1px solid #b5b5b5;                       
+                        }
+                    }
+                }
+                h2{
+                    font-size: 1.6rem;
+                    line-height: 4rem;
+                }
+                 h3{
+                     color: #ff7a12;
+                    font-size: 1.6rem;
+                }   
+                 h4{
+                     color: #bababa;
+                    font-size: 1.4rem;
+                }   
+                h5{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap; 
+                    color: #949494;
+                    span{
+                     color: #ff7a12;   
+                    }
+                }                        
+            }
+        }
+        .newuname{
+            font-size: 1.6rem;
+            padding: 0 1rem;
+            box-sizing: border-box;
+            .whb(100%,3rem,#fff);
+            margin-top: 0.5rem;
+            line-height: 3rem;
+            .box(horizontal);
+            .newuname1{
+                .whb(20rem,auto,0);
+                img{
+                    .whb(1.5rem,auto,0);
+                    margin-right: 0.6rem;
+                    box-sizing: border-box;
+                }
+            }
+            .newuname2{
+                -webkit-box-flex: 1;
+                text-align: right;
+                img{
+                    .whb(0.7rem,auto,0);
+                }
+            }
+        }
+        
+                .oms{
+            .whb(100%,5rem,#fff);
+            padding: 0 1rem;
+            box-sizing: border-box;
+            margin-top: 0.1rem;
+            .box(horizontal);
+            p{
+                margin-top: 0.5rem;
+            }
+            .oms1{
+                .whb(14rem,100%,0);
+                .f{
+                    color: #4f54b0;
+                }
+                .z{
+                    color: #f65754;
+                }
+            }
+            .oms2{
+                -webkit-box-flex: 1;
+                text-align: right;
+                p{
+                        overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap; 
+                }
+                .j{
+                    color: #ff811d;
+                }
+            }
+        }
+    }
+
+
+}
